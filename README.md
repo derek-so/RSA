@@ -2,6 +2,7 @@
 Simple RSA encrypter and decrypter in python.
 
 This repository contains several files that will perfrom RSA encryption on a .txt file.
+
 -Primes.py， is a file containing a list of prime numbers used to generate the private and public key. Feel free to add to    this  list, but keep in mind that too big of prime numbers can cause problems with "int arithmetic."
 
 -Generator.py, a script file that creates both the private and public for the user.
