@@ -12,3 +12,5 @@ This repository contains several files that will perfrom RSA encryption on a .tx
 
 -Decryptor.py, a script file that decrypts a .txt file encrypted using Encryptor.py. It outputs a .txt file with the name     "decrypted(encrypted file name).txt". When running the script, the first argument is the file name. The second argument  is  the  modulus (commonly written as m) and the third argument is the exponent (commonly written as k inverse). Running this    script looks  something like...
  python Decryptor.py "encrypted filename" 3403(the modulus) 193(our exponent or "k inverse")
+ 
+NOTE: Please do not use this to encrypt an extremely security sensitive .txt document. This repository is meant to help with the understanding of RSA only.
